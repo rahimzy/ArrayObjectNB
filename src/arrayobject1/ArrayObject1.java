@@ -32,4 +32,37 @@ class student1 {
         this.name = name;
         this.age = age;
     }
+   public class vicheles{
+        private double gollonsOfGass;
+        private int mpg;
+
+        /**
+         * @return the gollonsOfGass
+         */
+        public double getGollonsOfGass() {
+            return gollonsOfGass;
+        }
+
+        /**
+         * @param gollonsOfGass the gollonsOfGass to set
+         */
+        public void setGollonsOfGass(double gollonsOfGass) {
+            this.gollonsOfGass = gollonsOfGass;
+        }
+
+        /**
+         * @return the mpg
+         */
+        public int getMpg() {
+            return mpg;
+        }
+
+        /**
+         * @param mpg the mpg to set
+         */
+        public void setMpg(int mpg) {
+            this.mpg = mpg;
+        }
+        
+    }
 }
